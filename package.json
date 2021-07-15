@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "keen-slider": "^5.5.1",
     "lodash": "^4.17.21",
     "next": "latest",
     "react": "^17.0.2",

@@ -1,13 +1,16 @@
 import Link from 'next/link';
+import pages from '../pages';
 
 export default function Home() {
   return (
     <ul>
-      <li>
-        <Link href="/components/css-tricks-cards-stack">
-          <a>Css Tricks Card Stack</a>
-        </Link>
-      </li>
+      {pages.map((page) => (
+        <li>
+          <Link href={page.path}>
+            <a>{page.name}</a>
+          </Link>
+        </li>
+      ))}
     </ul>
-  )
+  );
 }
