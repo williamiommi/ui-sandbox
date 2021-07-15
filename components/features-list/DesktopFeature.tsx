@@ -14,9 +14,6 @@ const App = (props: { features: IFeature[] }) => {
       })
     );
   };
-  useEffect(() => {
-    console.log('rendering...');
-  });
   return (
     <div className='hidden lg:max-w-[1920px] lg:mx-auto lg:grid lg:grid-cols-2 '>
       <div className='aspect-w-1 aspect-h-1'>
