@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
     "keen-slider": "^5.5.1",
     "lodash": "^4.17.21",
     "next": "latest",
