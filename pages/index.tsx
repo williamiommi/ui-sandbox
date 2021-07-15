@@ -1,5 +1,13 @@
+import Link from 'next/link';
+
 export default function Home() {
   return (
-    <h1>Hello</h1>
+    <ul>
+      <li>
+        <Link href="/components/css-tricks-cards-stack">
+          <a>Css Tricks Card Stack</a>
+        </Link>
+      </li>
+    </ul>
   )
 }
